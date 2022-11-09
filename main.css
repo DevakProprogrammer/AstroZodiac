@@ -1,0 +1,223 @@
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: sticky;
+		top: 0;
+		cursor: pointer;
+	}
+	.background {
+		background: #FF577F;
+		background-blend-mode: darken;
+		background-size: cover;
+	}
+
+	.nav-list {
+	    margin: 0;
+        padding: 0;
+		width: 70%;
+		display: flex;
+		align-items: center;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.logo img {
+		width: 180px;
+		border-radius: 50px;
+	}
+
+	.nav-list li {
+	    font-family: Brush Script MT ,cursive ;
+		list-style: none;
+		padding: 26px 30px;
+		position: relative;
+	}
+
+	.nav-list li a {
+	    font-family: Brush Script MT ,cursive ;
+		text-decoration: none;
+		color: white;
+	}
+
+	.nav-list li a:hover {
+		color: #787878;
+	}
+
+	.rightnav {
+		width: 30%;
+		text-align: right;
+	}
+
+	#search {
+		padding: 5px;
+		font-size: 17px;
+		border: 2px solid grey;
+		border-radius: 9px;
+	}
+
+	.firstsection {
+		background-color: #FFECEF;
+		height: 400px;
+	}
+
+	.secondsection {
+		background-color: #FFCACA;
+		height: 400px;
+		text-align: right;
+	}
+
+	.box-main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+		max-width: 80%;
+		margin: auto;
+		height: 80%;
+	}
+
+	.firsthalf {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.secondhalf {
+		width: 30%;
+	}
+
+	.secondhalf img {
+		width: 70%;
+		border: 4px solid white;
+		border-radius: 150px;
+		display: block;
+		margin: auto;
+		text-align: right;;
+		align-items: right;
+	}
+
+	.text-big {
+		font-family: georgia ,serif ;
+		font-weight: bold;
+		font-size: 35px;
+		color: #FFCACA;
+	}
+
+	.text-small {
+	    font-family: Verdana ,serif ;
+		font-size: 18px;
+	}
+
+	.btn {
+		padding: 8px 20px;
+		margin: 7px 0;
+		border: 2px solid white;
+		border-radius: 8px;
+		background: none;
+		color: white;
+		cursor: pointer;
+	}
+
+	.btn-sm {
+		padding: 6px 10px;
+		vertical-align: middle;
+	}
+
+	.section {
+		height: 400px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: 90%;
+		margin: auto;
+		align-items: left;
+	}
+
+	.section-Left {
+		flex-direction: row-reverse;
+	}
+
+	.paras {
+		padding: 0px 65px;
+	}
+
+	.thumbnail img {
+		width: 250px;
+		border: 2px solid black;
+		border-radius: 26px;
+		margin-top: 19px;
+	}
+
+
+
+	.center {
+		text-align: center;
+	}
+
+	.text-footer {
+		text-align: center;
+		padding: 30px 0;
+		font-family: 'Ubuntu', sans-serif;
+		display: flex;
+		justify-content: center;
+		color: white;
+	}
+    .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+::-webkit-scrollbar {
+	width: 18px;
+	}
+	::-webkit-scrollbar-track {
+	background: #FFCACA;
+	}
+	::-webkit-scrollbar-thumb {
+	background: white ;
+	}
+	::-webkit-scrollbar-thumb:hover {
+    background: white;
+	}
+	@keyframes slideInLeft {
+		0% {
+		  transform: translateX(-100%);
+		}
+		100% {
+		  transform: translateX(0);
+		}
+	  }
+	
+	  
+	  a {
+		animation: 1s ease-out 0s 1 slideInLeft;
+	  }
+	  @keyframes example {
+		0%   {background-color:none; left:0x; top:12px;}
+		25%  {background-color:none; top:-6px;}
+		50%  {background-color:none; top:-6px;}
+	  }
+	  
+	  /* The element to apply the animation to */
+	  h1 {
+		width: 100px;
+		height: 100px;
+		position: relative;
+		background-color: transparent;
+		animation-name: example;
+		animation-duration: 4s;
+	  }
+	

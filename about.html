@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> About Us </title>
+<style>
+  /* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #96d3d9;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+body {
+  background-color: #b2cad1;
+}
+body {
+  background-image: url("images/");
+  background-color: black;
+  background-size: 125%;
+}
+html {
+  box-sizing: border-box;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  color: #ffffff;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+<div class="about-section">
+  <h1>About Us</h1>
+    <p><i>We are a group of four aspiring coders from <b>Delhi Public School Karnal</b>, and desire to build more innovative projects in the near future.</i></p>
+    <a href="#"><b>About Us</b></a>
+  <a href="#"><b>Home</b></a>
+  <a href="#"><b>Astrology games</b></a>
+</div>
+<div>
+  <hr>
+</div>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Devak</h2>
+        <p><i>I am an aspiring coder and want to embark on new ventures in my life</i></p>
+        <p>devaksharmalive@gmail.com</p>
+          <img src="images/Devak.png" alt="Devak photo" width="150%">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Aadit Gupta</h2>
+        <p><i>I am a hopefull student who wants to make a better world for others</i></p>
+        <p>aaditgupta1234@gmail.com</p>
+          <img src="images/aadit.png" alt="images/Aadit's photo" width="150%">
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Hardik Khaneja</h2>
+        <p><i>i aspire to become a professional coder</i></p>
+        <p>hardikkhaneja7@gmail.com</p>
+          <img src="images/hardik.png" alt="images/Hardik's Photo" width="150%">
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

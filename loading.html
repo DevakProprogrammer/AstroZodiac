@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title></title>
+   <style>
+   body
+   {
+      background:black;
+   }
+   #img
+   {
+      position: absolute;
+      width: 100%;
+      top:20%;
+      transform: translate(0%,0%);
+      animation: nm 5s infinite;
+
+   }
+   @keyframes nm{
+   from{
+      transform: rotate(0deg);
+   }
+   to{
+      transform: rotate(180deg);
+      }
+   }
+
+   }
+   @keyframes color {
+      0%   {color: red;}
+      25%  {color: yellow;}
+      100%  {color: blue;}
+      50% {color: green;}
+   }
+   img{
+   display: block;
+   margin: auto;
+}
+
+   </style>
+</head>
+<body>
+   <div id="img"><img src="ghum-removebg-preview.png"></div>
+</body>
+</html>
